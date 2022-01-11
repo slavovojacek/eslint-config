@@ -1,0 +1,37 @@
+{
+  "name": "@slavovojacek/eslint-config",
+  "version": "0.0.0",
+  "description": "Shared eslint config used in my projects",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=14",
+    "npm": ">=8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slavovojacek/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "configuration"
+  ],
+  "author": {
+    "name": "Slavo Vojacek",
+    "email": "public@slavovojacek.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slavovojacek/eslint-config/issues"
+  },
+  "homepage": "https://github.com/slavovojacek/eslint-config#readme",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "5.x",
+    "@typescript-eslint/parser": "5.x",
+    "eslint": "8.x",
+    "eslint-config-prettier": "8.x"
+  }
+}
