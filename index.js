@@ -28,4 +28,10 @@ module.exports = {
     ],
     'unused-imports/no-unused-imports': 'error',
   },
+  settings: {
+    'import/resolver': {
+      typescript: true,
+      node: true,
+    },
+  },
 };
