@@ -5,11 +5,12 @@ module.exports = {
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:import/recommended',
+    'plugin:import/typescript',
     'plugin:prettier/recommended',
   ],
   ignorePatterns: [],
   parser: '@typescript-eslint/parser',
-  plugins: ['plugin:import/typescript', 'prettier', 'simple-import-sort', 'unused-imports'],
+  plugins: ['prettier', 'simple-import-sort', 'unused-imports'],
   rules: {
     'prettier/prettier': 'error',
     'simple-import-sort/imports': 'error',

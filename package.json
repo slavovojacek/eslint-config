@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/slavovojacek/eslint-config#readme",
   "peerDependencies": {
-    "eslint": "8.x"
+    "eslint": "^8"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^6.18.1",
