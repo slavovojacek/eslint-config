@@ -9,7 +9,7 @@ module.exports = {
   ],
   ignorePatterns: [],
   parser: '@typescript-eslint/parser',
-  plugins: ['prettier', 'simple-import-sort', 'unused-imports'],
+  plugins: ['plugin:import/typescript', 'prettier', 'simple-import-sort', 'unused-imports'],
   rules: {
     'prettier/prettier': 'error',
     'simple-import-sort/imports': 'error',
@@ -30,8 +30,7 @@ module.exports = {
   },
   settings: {
     'import/resolver': {
-      typescript: true,
-      node: true,
+      typescript: true
     },
   },
 };
