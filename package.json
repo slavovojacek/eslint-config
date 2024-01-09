@@ -1,13 +1,13 @@
 {
   "name": "@slavovojacek/eslint-config",
   "version": "0.0.1",
-  "description": "Shared eslint config used in my projects",
+  "description": "Opinionated eslint config for TypeScript projects",
   "main": "index.js",
   "files": [
     "index.js"
   ],
   "engines": {
-    "node": ">=14",
+    "node": ">=18",
     "npm": ">=8"
   },
   "repository": {
@@ -29,9 +29,13 @@
   },
   "homepage": "https://github.com/slavovojacek/eslint-config#readme",
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "5.x",
-    "@typescript-eslint/parser": "5.x",
-    "eslint": "8.x",
-    "eslint-config-prettier": "8.x"
+    "eslint": "8.x"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.18.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-prettier": "^5.1.2",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "eslint-plugin-unused-imports": "^3.0.0"
   }
 }
