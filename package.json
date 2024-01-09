@@ -1,6 +1,6 @@
 {
   "name": "@slavovojacek/eslint-config",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Opinionated eslint config for TypeScript projects",
   "main": "index.js",
   "files": [
